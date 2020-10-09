@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Style Sheet</title>
+
+
+
+/* Menu Bar */
+
+
+
+.topnav {
+    background-color: #FAEBD7;
+    overflow: hidden;
+    
+  }
+  
+
+  .topnav a {
+   float: center;
+    color: #FFF0F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif; 
+    font-size: 20px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #696969;
+    color:#FFEBCD;
+  }
+  
+
+  .topnav a.active {
+    background-color:#FFEBCD;
+    color: #696969;
+  }
+  
+ 
+
+  body{
+  background-color:#D3D3D3;
+  padding-bottom: 100px; 
+  
+  
+
+
+}
+
+h1{
+  font-family:Impact, Charcoal, sans-serif;
+  color: #FFF0F5; 
+  font-size: 35px; 
+  text-shadow: 2px 2px #A9A9A9;
+  margin-bottom: 50px;
+  text-align: center; 
+}
+
+h2{
+  background-color: #C0C0C0;
+  font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #BC8F8F; 
+  text-shadow: 2px 2px #F8F8FF;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 300px;
+  margin-left: 300px;
+  text-align: justify; 
+ 
+}
+P {
+  color: #696969; 
+  font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 25px; 
+  margin-bottom: 50px; 
+  margin-right: 300px;
+  margin-left: 300px;
+  text-align: center; 
+
+}
+
+
+h3{
+  background-color: #C0C0C0;
+  font-family:Impact, Charcoal, sans-serif;
+  color: #FFEBCD; 
+  font-size: 30px; 
+  text-shadow: 2px 2px #696969;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 500px; 
+  margin-right: 500px; 
+  text-align: center;
+ 
+
+}
+
+a:hover {
+  color: #FF1493;
+}
+
+
+ul{
+ 
+  font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #BC8F8F; 
+ font-size: 20px;
+ margin-top: 10px; 
+ margin bottom: 10px; 
+ margin-right: 50px; 
+ margin-left: 300px; 
+ 
+
+
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
