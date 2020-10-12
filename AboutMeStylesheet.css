@@ -1,67 +1,48 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
 
-<title>Style Sheet</title>
-
-
-
-/* Menu Bar */
-
-
-
-.topnav {
-    background-color: #FAEBD7;
-    overflow: hidden;
-    
-  }
-  
-
-  .topnav a {
-   float: center;
-    color: #FFF0F5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Impact, Charcoal, sans-serif; 
-    font-size: 20px;
-  }
-  
-  
-  .topnav a:hover {
-    background-color: #696969;
-    color:#FFEBCD;
-  }
-  
-
-  .topnav a.active {
-    background-color:#FFEBCD;
-    color: #696969;
-  }
-  
- 
-
-  body{
-  background-color:#D3D3D3;
-  padding-bottom: 100px; 
-  
-  
-
-
+body{
+  background-color: #696969;
 }
 
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #696969;
+  float: center;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  background-color:  #A9A9A9;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#FFB6C1;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+} 
+
+
 h1{
-  font-family:Impact, Charcoal, sans-serif;
-  color: #FFF0F5; 
-  font-size: 35px; 
+  font-family:'Cookie', cursive;
+  color: #BA55D3; 
+  font-size: 50px; 
   text-shadow: 2px 2px #A9A9A9;
   margin-bottom: 50px;
   text-align: center; 
 }
 
 h2{
-  background-color: #C0C0C0;
+  
   font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #BC8F8F; 
   text-shadow: 2px 2px #F8F8FF;
@@ -74,7 +55,7 @@ h2{
  
 }
 P {
-  color: #696969; 
+  color: #FFEBCD; 
   font-family:Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   margin-top: 25px; 
@@ -86,10 +67,10 @@ P {
 }
 
 
-h3{
+#TextList{
   background-color: #C0C0C0;
   font-family:Impact, Charcoal, sans-serif;
-  color: #FFEBCD; 
+  color:#ffcccc; 
   font-size: 30px; 
   text-shadow: 2px 2px #696969;
   margin-top: 50px;
@@ -103,6 +84,18 @@ h3{
 
 a:hover {
   color: #FF1493;
+}
+hr { 
+	height: .7rem;
+	background-color: #696969;
+	border: none;
+	margin: 0px; 
+}
+
+a {
+	color: #BA55D3
+	font-weight: 600;
+	text-decoration: none;  
 }
 
 
@@ -121,10 +114,30 @@ ul{
 
 }
 
+h4{
+  font-family:'Cookie', cursive;
+  color: #BA55D3; 
+  font-size: 60px; 
+  text-shadow: 2px 2px #A9A9A9;
+  margin-bottom: 30px;
+  text-align: center; 
+
+
+}
+
+footer{
+  color: #BC8F8F; 
+  font-family:'Cookie', cursive;
+  font-size: 50px; 
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 500px; 
+  margin-right: 500px; 
+  text-align: center;
 
 
 
-  
+}
 
 
 
@@ -148,6 +161,4 @@ ul{
 
 
 
-</div>
-</body>
-</html>
+
